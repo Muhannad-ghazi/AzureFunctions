@@ -13,6 +13,7 @@ namespace My.Functions
     
     public static class HttpExample
     {//ascasc
+    //kjhjknhj
         [FunctionName("HttpExample")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequest req,
